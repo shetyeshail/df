@@ -8,7 +8,17 @@
     <title>DEHS Frisbee</title>
 
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure.css">
-
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  });
+  </script>
   
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="css/main-grid-old-ie.css">
@@ -116,10 +126,19 @@
     </div>
 
     <div class="content">
+        
         <h2 class="content-head is-center">What are you waiting for? Come out and play! </br>
-          <a href="https://docs.google.com/forms/d/1SvwVcwS-2AXjXejuS233ACWmDPGH-i_MqeA6PJVpn8I/viewform?edit_requested=true">SIGN UP FORM</a>
+          <a href="https://docs.google.com/forms/d/11HnBibeSVhGjLszCEjyoRsmi5M-AmHM6lQe3FSb8zpc/viewform?usp=send_form">SIGN UP FORM</a>
         </h2>
-        <h3 class="content-head is-center">Unfortunately, the signup period for this year's league has ended :(</h3>
+        
+        <div id="accordion">
+            <h3>SIGNUP FORM</h3>
+            <div>
+                <iframe src="https://docs.google.com/forms/d/11HnBibeSVhGjLszCEjyoRsmi5M-AmHM6lQe3FSb8zpc/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
+        </div>
+        
+        <h3 class="content-head is-center">Signups for this season end on May 8th!</h3>
     </div>
 
     <div class="footer l-box is-center">
